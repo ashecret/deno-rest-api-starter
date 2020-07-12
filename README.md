@@ -3,7 +3,7 @@
 ***This is a work in progress. Will update with modern packages and tests as I find them. Feel free to create PRs***
 
 ### Getting Started
-1. Create a `.env` file in the project root and specify the port the run the application
+1. Create a `.env` file in the project root and specify the port to run the application
 ```
 PORT=8000
 ```
