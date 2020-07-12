@@ -1,5 +1,5 @@
-import { Status, isHttpError } from '../deps.ts'
-export default async ({ response }: any, next: () => Promise<void>) => {
+import { Context, Status, isHttpError } from '../deps.ts'
+export default async ({ response }: Context, next: () => Promise<void>) => {
   try {
     await next()
   } catch (err) {
