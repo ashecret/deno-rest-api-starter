@@ -9,7 +9,7 @@ PORT=8000
 ```
 2. Then to run the application
 ```
-deno run --allow-read --allow-net --lock=lock.json src/index.ts
+deno run --allow-read --allow-net --lock=lock.json src/mod.ts
 ```
 
 You should see a log in the console as below- 

@@ -1,6 +1,6 @@
 import { Application, Organ } from './deps.ts'
-import router from './routes/index.ts'
-import { notFound, errorHandler } from './middlewares/index.ts'
+import router from './routes/mod.ts'
+import { notFound, errorHandler } from './middlewares/mod.ts'
 
 const app = new Application()
 app.use(Organ('short', true))
